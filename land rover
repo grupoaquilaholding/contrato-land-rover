@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrato de Compra e Venda de Veículo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+        .text-landrover-green {
+            color: #007F3D; /* Land Rover's signature green */
+        }
+        .border-landrover-green {
+            border-color: #007F3D;
+        }
+        .bg-landrover-green-light {
+            background-color: #F0F4F0;
+        }
+        @media print {
+            body {
+                background-color: #ffffff;
+                color: #000000;
+            }
+            .max-w-4xl {
+                max-width: 100%;
+                box-shadow: none;
+                border: none;
+            }
+            .bg-landrover-green-light {
+                background-color: #ffffff;
+            }
+            .text-gray-600, .text-gray-700, .text-landrover-green, .text-gray-800 {
+                color: #000000;
+            }
+            .text-gray-500 {
+                color: #4b5563;
+            }
+            .border-b-2, .border-b, .border-t-8, .border-landrover-green {
+                border-color: #000000;
+            }
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8">
+    <div class="max-w-4xl mx-auto bg-white p-6 sm:p-10 rounded-xl shadow-lg border-t-8 border-landrover-green">
+        <header class="text-center mb-8">
+            <h1 class="text-3xl sm:text-4xl font-light text-landrover-green tracking-widest">LAND ROVER</h1>
+            <p class="text-base sm:text-lg text-gray-600 font-medium">CONTRATO DE COMPRA E VENDA</p>
+            <p class="text-sm sm:text-base text-gray-500">RANGE ROVER SV 2025</p>
+        </header>
+
+        <section class="mb-8 p-4 bg-landrover-green-light rounded-lg">
+            <h2 class="text-lg sm:text-xl font-semibold text-gray-700 mb-4 border-b-2 border-gray-300 pb-2">PARTES DO CONTRATO</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- VENDEDOR -->
+                <div>
+                    <h3 class="font-bold text-gray-800 mb-2">VENDEDOR (CONCESSIONÁRIA):</h3>
+                    <p class="text-gray-600"><span class="font-medium text-gray-700">Razão Social:</span> Jaguar Land Rover Brasil Importação e Comércio de Veículos Ltda.</p>
+                    <p class="text-gray-600"><span class="font-medium text-gray-700">CNPJ:</span> 10.313.717/0001-47</p>
+                    <p class="text-gray-600"><span class="font-medium text-gray-700">Endereço:</span> Av. Ibirapuera - 10º Andar 2332 Torre I Moema, São Paulo - SP</p>
+                    <p class="text-gray-600"><span class="font-medium text-gray-700">Telefone:</span> (11) 2344-4444</p>
+                    <p class="text-gray-600"><span class="font-medium text-gray-700">Vendedor Responsável:</span> Marcos Leonardo Teixeira</p>
+                </div>
+                
+                <!-- COMPRADOR -->
+                <div>
+                    <h3 class="font-bold text-gray-800 mb-2">COMPRADOR:</h3>
+                    <p class="text-gray-600"><span class="font-medium text-gray-700">Nome:</span> JURACY BARBOSA DA SILVA</p>
+                    <p class="text-gray-600"><span class="font-medium text-gray-700">CPF:</span> 218.919.818-62</p>
+                    <p class="text-gray-600"><span class="font-medium text-gray-700">Endereço:</span> Rua Dom Pedro I, 1700, Bairro São Cristóvão, Pato Branco - PR</p>
+                    <p class="text-gray-600"><span class="font-medium text-gray-700">CEP:</span> 85508-206</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-8 p-4 bg-landrover-green-light rounded-lg">
+            <h2 class="text-lg sm:text-xl font-semibold text-gray-700 mb-4 border-b-2 border-gray-300 pb-2">OBJETO DO CONTRATO</h2>
+            <p class="text-gray-600 mb-2"><span class="font-medium text-gray-700">Veículo:</span> Range Rover SV 2025 de 5 lugares</p>
+            <p class="text-gray-600 mb-2"><span class="font-medium text-gray-700">Ano/Modelo:</span> 2025/2025</p>
+            <p class="text-gray-600 mb-2"><span class="font-medium text-gray-700">Cor:</span> Metálica bronze/champanhe com um brilho sofisticado</p>
+            <p class="text-gray-600 mb-2"><span class="font-medium text-gray-700">Rodas:</span> 23 polegadas com acabamento diamantado</p>
+            <p class="text-gray-600 mb-2"><span class="font-medium text-gray-700">Interior:</span> Couro Semi-Aniline Perforado na cor Perlina</p>
+            <p class="text-gray-600"><span class="font-medium text-gray-700">Condição:</span> Zero quilômetro</p>
+        </section>
+
+        <section class="mb-8 p-4 bg-landrover-green-light rounded-lg">
+            <h2 class="text-lg sm:text-xl font-semibold text-gray-700 mb-4 border-b-2 border-gray-300 pb-2">VALOR E FORMA DE PAGAMENTO</h2>
+            <p class="text-gray-600 mb-2">O valor total da venda é de R$ 1.758.000,85 (um milhão, setecentos e cinquenta e oito mil e oitenta e cinco centavos), que equivale a aproximadamente $326.159,71 dólares (dólar a R$ 5,39). O pagamento será à vista, por meio de depósito a ser realizado diretamente na conta da concessionária.</p>
+            <p class="text-gray-600">A entrega do veículo ocorrerá somente após a confirmação do pagamento integral.</p>
+        </section>
+
+        <section class="mb-8 p-4 bg-landrover-green-light rounded-lg">
+            <h2 class="text-lg sm:text-xl font-semibold text-gray-700 mb-4 border-b-2 border-gray-300 pb-2">ENTREGA E DOCUMENTAÇÃO</h2>
+            <p class="text-gray-600 mb-2">O veículo será entregue ao comprador em data a ser agendada, acompanhado da nota fiscal emitida em nome do comprador.</p>
+            <p class="text-gray-600">Todos os custos de licenciamento, emplacamento e demais taxas são de responsabilidade do comprador.</p>
+        </section>
+
+        <section class="mb-8 p-4 bg-landrover-green-light rounded-lg">
+            <h2 class="text-lg sm:text-xl font-semibold text-gray-700 mb-4 border-b-2 border-gray-300 pb-2">GARANTIA</h2>
+            <p class="text-gray-600">O veículo é vendido zero quilômetro, com garantia integral de fábrica Land Rover de 3 (três) anos, válida a partir da data de entrega, conforme as condições previstas no manual do proprietário e pela montadora.</p>
+        </section>
+
+        <section class="mb-8 p-4 bg-landrover-green-light rounded-lg">
+            <h2 class="text-lg sm:text-xl font-semibold text-gray-700 mb-4 border-b-2 border-gray-300 pb-2">DECLARAÇÕES</h2>
+            <p class="text-gray-600 mb-2">O vendedor declara que o veículo se encontra novo, sem uso e livre de quaisquer ônus ou gravames.</p>
+            <p class="text-gray-600">O comprador declara estar ciente e de acordo com os termos deste contrato.</p>
+        </section>
+
+        <section class="mb-8 p-4 bg-landrover-green-light rounded-lg">
+            <h2 class="text-lg sm:text-xl font-semibold text-gray-700 mb-4 border-b-2 border-gray-300 pb-2">DISPOSIÇÕES GERAIS</h2>
+            <p class="text-gray-600">Este contrato é celebrado em caráter irrevogável e irretratável, obrigando as partes e seus sucessores.</p>
+            <p class="text-gray-600 mt-2">Fica eleito o foro da comarca de <span class="font-bold">São Paulo - SP</span> para dirimir quaisquer controvérsias oriundas deste contrato.</p>
+        </section>
+
+        <div class="mt-10 pt-6 border-t border-gray-300 text-center">
+            <p class="text-sm text-gray-500 mb-6">São Paulo - SP, ______ de ___________________ de 2024</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 text-sm">
+                <div class="flex flex-col items-center">
+                    <div class="w-full h-12 border-b border-gray-400 mb-2"></div>
+                    <p class="font-medium text-gray-800">Vendedor</p>
+                    <p class="text-gray-600">Marcos Leonardo Teixeira</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-full h-12 border-b border-gray-400 mb-2"></div>
+                    <p class="font-medium text-gray-800">Comprador</p>
+                    <p class="text-gray-600">JURACY BARBOSA DA SILVA</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
